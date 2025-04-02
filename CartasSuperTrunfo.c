@@ -19,7 +19,7 @@ int main() {
     printf("\nCadastro da Carta 1:\n");
     printf("Estado (A-H): ");
     scanf(" %c", &carta1.estado); // Lê o estado
-    printf("Codigo da carta (ex: A01, B02...): ");
+    printf("Codigo da carta: ");
     scanf("%3s", carta1.codigo); // Lê o código da carta (máximo de 3 caracteres)
     printf("Nome da Cidade: ");
     scanf(" %49s", carta1.nome_cidade); // Lê o nome da cidade com espaços
@@ -36,7 +36,7 @@ int main() {
     printf("\nCadastro da Carta 2:\n");
     printf("Estado (A-H): ");
     scanf(" %c", &carta2.estado); // Lê o estado
-    printf("Codigo da carta (ex: A01, B02...): ");
+    printf("Codigo da carta: ");
     scanf("%3s", carta2.codigo); // Lê o código da carta
     printf("Nome da Cidade: ");
     scanf(" %49s", carta2.nome_cidade); // Lê o nome da cidade com espaços
